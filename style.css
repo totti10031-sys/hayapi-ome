@@ -117,7 +117,7 @@ h1 {
 
 .mole {
     background-image: url('images/mole.jpg');
-    background-size: 120%;
+    background-size: cover;
     background-position: center;
     position: absolute;
     top: 0;
@@ -129,5 +129,7 @@ h1 {
 }
 
 .square.mole-up .mole {
-    transform: translateY(15%);
+
+    transform: translateY(0%);
+
 }

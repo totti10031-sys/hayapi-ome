@@ -22,7 +22,7 @@ function randomSquare() {
 
 squares.forEach(square => {
     square.addEventListener('mousedown', () => {
-        if(square.id == molePosition && timeLeft > 0) {
+        if(square.id == molePosition) {
             score++;
             scoreDisplay.textContent = score;
             molePosition = null;
